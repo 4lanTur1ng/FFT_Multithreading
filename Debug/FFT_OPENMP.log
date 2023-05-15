@@ -1,0 +1,17 @@
+﻿  OPENMP.cpp
+D:\Parallel Program Codes\FFT_OPENMP\OPENMP.cpp(266,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\Parallel Program Codes\FFT_OPENMP\OPENMP.cpp(300,22): warning C4018: “<”: 有符号/无符号不匹配
+D:\Parallel Program Codes\FFT_OPENMP\OPENMP.cpp(411,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Parallel Program Codes\FFT_OPENMP\OPENMP.cpp(54,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\Parallel Program Codes\FFT_OPENMP\OPENMP.cpp(227,25): message : 查看对正在编译的函数 模板 实例化“void separate<COMPLEX>(T *,size_t)”的引用
+          with
+          [
+              T=COMPLEX
+          ]
+D:\Parallel Program Codes\FFT_OPENMP\OPENMP.cpp(56,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\Parallel Program Codes\FFT_OPENMP\OPENMP.cpp(58,21): warning C4018: “<”: 有符号/无符号不匹配
+OPENMP.obj : error LNK2019: 无法解析的外部符号 __imp__pthread_create，函数 "void __cdecl fft2_pt(class std::vector<class std::complex<double>,class std::allocator<class std::complex<double> > > &)" (?fft2_pt@@YAXAAV?$vector@V?$complex@N@std@@V?$allocator@V?$complex@N@std@@@2@@std@@@Z) 中引用了该符号
+OPENMP.obj : error LNK2019: 无法解析的外部符号 __imp__pthread_exit，函数 "void * __cdecl threadFunc(void *)" (?threadFunc@@YAPAXPAX@Z) 中引用了该符号
+OPENMP.obj : error LNK2019: 无法解析的外部符号 __imp__pthread_join，函数 "void __cdecl fft2_pt(class std::vector<class std::complex<double>,class std::allocator<class std::complex<double> > > &)" (?fft2_pt@@YAXAAV?$vector@V?$complex@N@std@@V?$allocator@V?$complex@N@std@@@2@@std@@@Z) 中引用了该符号
+pthreadVC2.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\Parallel Program Codes\FFT_OPENMP\Debug\FFT_OPENMP.exe : fatal error LNK1120: 3 个无法解析的外部命令

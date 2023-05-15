@@ -1,0 +1,7 @@
+﻿  OPENMP.cpp
+D:\Parallel Program Codes\FFT_OPENMP\FFT_PThread.h(46,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Parallel Program Codes\FFT_OPENMP\FFT_PThread_static.h(70,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Parallel Program Codes\FFT_OPENMP\OPENMP.cpp(104,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Parallel Program Codes\FFT_OPENMP\OPENMP.cpp(136,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Parallel Program Codes\FFT_OPENMP\OPENMP.cpp(168,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  FFT_OPENMP.vcxproj -> D:\Parallel Program Codes\FFT_OPENMP\x64\Debug\FFT_OPENMP.exe
